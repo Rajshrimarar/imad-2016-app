@@ -12,7 +12,7 @@ app.get('/article-onee', function(req,res){
  res.sendFile(path.join(__dirname, 'ui', 'article-onee.html'));   
 });
 app.get('/article-two', function(req,res){
-    res.send('wee are inside article two');
+    res.send('wee are insidee article two');
     
 });
 
